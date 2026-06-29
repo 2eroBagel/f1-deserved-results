@@ -22,5 +22,3 @@ A from-scratch model that splits every 2022–2025 Formula 1 result into three p
 - The rating runs on finishing position, which still carries some car performance, it's a luck-removed results rating, not a pure isolated-driver-skill number. A fully car-controlled version is the planned next build.
 - Strategy and safety-car luck are the most approximate of the four buckets and are scaled down accordingly.
 - Covers the ground-effect era, 2022 to 2025. Extending back to 2018 is in progress.
-
-Built by James Nagel.
