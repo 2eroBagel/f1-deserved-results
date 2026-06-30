@@ -15,10 +15,10 @@ A from-scratch model that splits every 2022–2025 Formula 1 result into three p
 
 - **Pace baseline:** teammate-relative race pace, fit per season with cross-validated hyperparameters.
 - **Data:** FastF1 for lap timing, pit stops, and stewards messages; F1DB for sprint results and points. ~100k race laps, 240+ classified DNFs, all pulled and cleaned from scratch.
-- **Stack:** Python (pandas, numpy), self-contained HTML/JS dashboard with the data baked in.
+- **Stack:** Python (pandas, numpy), self-contained HTML dashboard with the data baked in.
 
 ## Known limits
 
-- The rating runs on finishing position, which still carries some car performance, it's a luck-removed results rating, not a pure isolated-driver-skill number. A fully car-controlled version is the planned next build.
+- The rating runs on finishing position, which still carries some car performance, it's a luck-removed results rating, not a pure isolated-driver-skill number. 
 - Strategy and safety-car luck are the most approximate of the four buckets and are scaled down accordingly.
 - Covers the ground-effect era, 2022 to 2025. Extending back to 2018 is in progress.
